@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Extra!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Titulo e subtitulo da pagina -->
+        <h1>CONVERSOR MONETÁRIO</h1>
+        <p>Como seria se eu precisasse de algum valor em notas e moedas?</p>
+        
+        <!-- Imagem -->
+        <img class="headerImage" src="images/home.png">
+
+        <!-- Caixa de pergunta e botão para submeter -->
+        <div class="form-wrapper">
+            <p>Digite a quantia a ser analisada</p>
+            <input type="number" id="valorInicial" placeholder="Valores acima de 2 casas decimais serão arrendondados">
+            <button onclick="analisar()">Submeter</button>
+        </div>
+        
+        <!-- Resultados-->
+        <div id="resultado"></div>
+    </div>
+
+<!-- Chamando JS -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
